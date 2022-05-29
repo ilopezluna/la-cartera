@@ -4,7 +4,13 @@
     "src/**/*"
   ],
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true
   },
   "exclude": ["node_modules"]
 }
